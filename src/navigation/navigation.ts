@@ -33,6 +33,8 @@ export class Navigation {
   items = [];
   itemsInMenu = [];
 
+  @Input('color') public color;
+
   @Input()
   get active() {
     return this._active;
