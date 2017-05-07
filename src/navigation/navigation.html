@@ -1,0 +1,51 @@
+
+<!--<ion-buttons end>-->
+  <!--<button ion-button icon-only>-->
+    <!--<ion-icon name="menu" color="white" margin-right menuToggle></ion-icon>-->
+  <!--</button>-->
+<!--<ion-menu [content]="content">-->
+  <!--<ion-header>-->
+    <!--<ion-toolbar>-->
+      <!--<ion-title>Pages</ion-title>-->
+    <!--</ion-toolbar>-->
+  <!--</ion-header>-->
+  <!--<ion-content>-->
+    <!--<ion-list>-->
+      <!--<button ion-item (click)="openPage(loginPage)">-->
+        <!--Login-->
+      <!--</button>-->
+      <!--<button ion-item (click)="openPage(signupPage)">-->
+        <!--Signup-->
+      <!--</button>-->
+    <!--</ion-list>-->
+  <!--</ion-content>-->
+<!--</ion-menu>-->
+<!--</ion-buttons>-->
+
+
+
+<!--<ion-nav id="nav" #content [root]="rootPage"></ion-nav>-->
+
+
+<ion-navbar color="primary">
+  <ion-row no-padding margin-horizontal>
+    <ion-col col-md-4 col-sm-12 align-items-center>
+      <ion-row>
+        <ion-col align-items-center>
+          <ion-title>
+            <a class="navbar-brand" href="#" (click)="openNavDetailsPage(items[0])">
+              <img src="assets/img/logos/Bright-WHITE_logo_top.png" width="128" height="45" alt="">
+            </a>
+          </ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col col-md-6 offset-md-2 col-sm col-12>
+      <ion-segment color="white" style="height:100%;" no-margin [(ngModel)]="active">
+        <ion-segment-button *ngFor="let item of itemsInMenu" [value]="item.value" text-uppercase (click)="openNavDetailsPage(item)">
+          <span>{{ item.title }}</span>
+        </ion-segment-button>
+      </ion-segment>
+    </ion-col>
+  </ion-row>
+</ion-navbar>
