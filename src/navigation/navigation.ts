@@ -52,7 +52,7 @@ export class Navigation {
     this._parent = value;
   }
 
-  constructor(public nav: NavController) {
+  constructor(public nav: NavController, public navParams: NavParams) {
     this.items = [
       {
         title: "Home",
@@ -93,6 +93,8 @@ export class Navigation {
     this.itemsInMenu = this.items.filter((item) => {
       return item.inMenu;
     });
+    this.active = this.navParams.get('item') && this.navParams.get('item').value || 'home';
+    console.log('value active', this.active);
   }
 
   openNavDetailsPage(item) {
