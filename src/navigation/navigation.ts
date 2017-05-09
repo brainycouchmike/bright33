@@ -1,6 +1,6 @@
 import {Component, Input, SimpleChange} from '@angular/core';
 
-import {Nav, NavController, NavParams} from 'ionic-angular';
+import {App, Nav, NavController, NavParams, ViewController} from 'ionic-angular';
 
 import {HomePage} from "../pages/home/home";
 import {ProductsPage} from "../pages/products/products";
@@ -25,7 +25,7 @@ export class NavigationDetailsPage {
 @Component({
   selector:    'navigation',
   templateUrl: 'navigation.html',
-  inputs: ['active']
+  inputs: ['active', 'color']
 })
 export class Navigation {
   private _active;
@@ -52,7 +52,7 @@ export class Navigation {
     this._parent = value;
   }
 
-  constructor(public nav: NavController, public navParams: NavParams) {
+  constructor(public app: App, public nav: NavController, public navParams: NavParams) {
     this.items = [
       {
         title: "Home",
@@ -99,24 +99,35 @@ export class Navigation {
 
   openNavDetailsPage(item) {
     if(this.parent!=item.value) {
-      if(this.active == item.value) item.active = true;
-      this.nav.push(item.page, { item: item });
+      if(this.active == item.value) {
+        item.active = true;
+      }
+      let rootNav:NavController = this.app.getRootNav();
+      let historyViews:ViewController[]   = rootNav.getViews();
+      let targetView:ViewController       = null;
+      // TODO: reorder history stack to re-instate pages without losing navigation
+      let updatedHistory:ViewController[] = historyViews.filter((view) => {
+        if(view.component.name == item.page.name) {
+          targetView = view;
+          return false;
+        }
+        return true;
+      });
+      if(targetView !== null) {
+        rootNav.push(targetView.component,targetView.data, {
+          id: targetView.id, animate: true, updateUrl: true
+        });
+      } else {
+        this.nav.push(item.page, { item: item }, {
+          updateUrl: true
+        });
+      }
     } else {
       // TODO: Scroll to page top
     }
     return false;
   }
   ngOnChanges(changes: {[propKey: string]: SimpleChange}) {
-    for (let propName in changes) {
-      let changedProp = changes[propName];
-      let to = changedProp.currentValue;
-      if(propName=='active') this.parent = to;
-      // if (changedProp.isFirstChange()) {
-      //   console.log(`Initial value of ${propName} set to ${to}`);
-      // } else {
-      //   let from = JSON.stringify(changedProp.previousValue);
-      //   console.log(`${propName} changed from ${from} to ${to}`);
-      // }
-    }
+    if(changes['active']) this.parent = changes['active'].currentValue;
   }
 }

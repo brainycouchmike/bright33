@@ -30,7 +30,19 @@ import {ProductDetailsPage} from "../pages/product-details/product-details";
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      /** Uncomment to remove # from path, further config required **/
+      // locationStrategy: 'path'
+    }, {
+      links: [
+        { component: HomePage, name: 'Home', segment: '' },
+        { component: ProductsPage, name: 'Products', segment: 'products' },
+        { component: LampsPage, name: 'LED Lamps', segment: 'products/lamps' },
+        { component: FixturesPage, name: 'LED Fixtures', segment: 'products/fixtures' },
+        { component: BuyPage, name: 'Buy', segment: 'buy' },
+        { component: ProductDetailsPage, name: 'Product Details', segment: 'products/:productId' }
+      ]
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
