@@ -1,3 +1,14 @@
 page-products {
-
+  h2 {
+    color: color($colors, dark);
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  ion-card {
+    background-color: color($colors, lightGray) !important;
+    ion-card-title h5 {
+      font-weight: bolder !important;
+      color: color($colors, 'dark') !important;
+    }
+  }
 }

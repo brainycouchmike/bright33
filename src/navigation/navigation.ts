@@ -98,6 +98,9 @@ export class Navigation {
   }
 
   openNavDetailsPage(item) {
+    if(typeof item == 'string') item = this.items.find((page) => {
+      return page.value == item;
+    });
     if(this.parent!=item.value) {
       if(this.active == item.value) {
         item.active = true;
