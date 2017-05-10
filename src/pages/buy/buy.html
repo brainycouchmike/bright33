@@ -2,12 +2,43 @@
   <navigation active="buy"></navigation>
 </ion-header>
 <ion-content padding>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Buy</ion-card-title>
-    </ion-card-header>
-    <ion-card-content padding>
-      <p>Buy Page</p>
-    </ion-card-content>
-  </ion-card>
+  <ion-grid text-center>
+    <ion-row margin text-uppercase>
+      <ion-col col-lg-8 offset-lg-2 align-items-center>
+        <h2>Where to Buy</h2>
+        <ion-icon name="arrow-dropdown"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row margin>
+      <!-- Add margin padded row -->
+    </ion-row>
+    <ion-row>
+      <ion-col sol-sm-0 col-md-2 col-lg-2><!-- padding col --></ion-col>
+      <ion-col col-sm-12 col-md-4 col-lg-4>
+        <div class="service-icon">
+          <a href="http://www.famous-supply.com/locations.html" target="_blank">
+            <img src="/assets/img/logos/Full-Color_Famous-Supply_transparent.png" width="157" height="90" alt="">
+          </a>
+          <br>
+          <span>For Professionals</span>
+        </div>
+        <div class="service-desc">
+          <p><a href="http://www.famous-supply.com/locations.html" target="_blank">www.famous-supply.com</a></p>
+        </div>
+      </ion-col>
+      <ion-col col-sm-12 col-md-4 col-lg-4>
+          <div class="service-icon">
+            <a href="http://www.pphind.com/locations.html" target="_blank">
+              <img src="/assets/img/logos/pph.jpg" width="184" height="90" alt="">
+            </a>
+            <br>
+            <span>For Professionals</span>
+          </div>
+          <div class="service-desc">
+            <p><a href="http://www.pphind.com/locations.html" target="_blank">www.pphind.com</a></p>
+          </div>
+      </ion-col>
+      <ion-col sol-sm-0 col-md-2 col-lg-2><!-- padding col --></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

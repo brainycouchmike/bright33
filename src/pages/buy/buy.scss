@@ -1,3 +1,10 @@
 page-buy {
-
+  h2,[name="arrow-dropdown"] {
+    color: color($colors, dark);
+    font-wieght: bolder;
+    font-size: 40px;
+  }
+  a {
+    color: color($colors, dark) !important;
+  }
 }
