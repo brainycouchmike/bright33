@@ -18,3 +18,10 @@
 .bar-button {
   color: color($colors, white) !important;
 }
+.back-button {
+  position: absolute;
+  &.show-back-button + .toolbar-content ion-col:first-child {
+    margin-left: 20px;
+  }
+}
+
