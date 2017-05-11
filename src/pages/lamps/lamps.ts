@@ -40,6 +40,7 @@ export class LampsPage {
           this._lamps = products.filter((product) => {
             return group.items.includes(product.id);
           });
+          this.group = group;
         });
       });
     }
