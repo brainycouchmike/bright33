@@ -1,0 +1,62 @@
+[
+  {
+    "title": "FLUSH MOUNT",
+    "subtitle": "Classic | Comtemporary | Modern",
+    "group": false,
+    "image": {
+      "src": "img/fixtures/classic-flush-bn.jpg"
+    },
+    "id": "flushmount",
+    "items": [
+      "flushmount"
+    ]
+  },
+  {
+    "title": "Pendant",
+    "subtitle": "Contemporary",
+    "group": false,
+    "image": {
+      "src": "img/fixtures/contemp-pend.jpg"
+    },
+    "id": "pendant",
+    "items": [
+      "pendant"
+    ]
+  },
+  {
+    "title": "vANITY",
+    "subtitle": "Transitional | Contemporary",
+    "group": false,
+    "image": {
+      "src": "img/fixtures/trans-lamp.jpg"
+    },
+    "id": "vanity",
+    "items": [
+      "vanity"
+    ]
+  },
+  {
+    "title": "WALL Sconce",
+    "subtitle": "Contemporary",
+    "group": false,
+    "image": {
+      "src": "img/fixtures/contemp-moon.jpg"
+    },
+    "id": "contempmoon",
+    "items": [
+      "contempmoon"
+    ]
+  },
+  {
+    "title": "oUTDOOR",
+    "subtitle": "Traditional",
+    "group": false,
+    "image": {
+      "src": "img/fixtures/tradout.jpg"
+    },
+    "id": "outdoor",
+    "items": [
+      "outdoor"
+    ]
+  }
+]

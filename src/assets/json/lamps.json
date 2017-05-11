@@ -1,0 +1,89 @@
+[
+  {
+    "title": "A19 NON-DIMMABLE",
+    "subtitle": "General Purpose",
+    "group": false,
+    "image": {
+      "src": "img/lamps/A19.jpg"
+    },
+    "id": "a19",
+    "items": [
+      "a19"
+    ]
+  },
+  {
+    "title": "A19 DIMMABLE",
+    "subtitle": "LED Filament",
+    "group": false,
+    "image": {
+      "src": "img/lamps/A19_glass.jpg"
+    },
+    "id": "a19d",
+    "items": [
+      "a19d"
+    ]
+  },
+  {
+    "title": "BR20, BR30 & BR40",
+    "subtitle": "Floodlights",
+    "group": true,
+    "image": {
+      "src": "img/lamps/BR30.jpg"
+    },
+    "id": "br",
+    "items": [
+      "br20",
+      "br30",
+      "br40"
+    ]
+  },
+  {
+    "title": "DOWNLIGHT 4\" & 6\"",
+    "subtitle": "Retrofit Kit",
+    "group": true,
+    "image": {
+      "src": "img/lamps/DL_4in1.jpg"
+    },
+    "id": "downlights",
+    "items": [
+      "downlight4",
+      "downlight6"
+    ]
+  },
+  {
+    "title": "G25",
+    "subtitle": "Decorative",
+    "group": false,
+    "image": {
+      "src": "img/lamps/G25.jpg"
+    },
+    "id": "g25",
+    "items": [
+      "g25"
+    ]
+  },
+  {
+    "title": "E12",
+    "subtitle": "Decorative Candelabra",
+    "group": false,
+    "image": {
+      "src": "img/lamps/CAN.jpg"
+    },
+    "id": "e12",
+    "items": [
+      "e12"
+    ]
+  },
+  {
+    "title": "PAR38",
+    "subtitle": "Outdoor Floodlight",
+    "group": false,
+    "image": {
+      "src": "img/lamps/PAR38.jpg"
+    },
+    "id": "par38",
+    "items": [
+      "par38"
+    ]
+  }
+]

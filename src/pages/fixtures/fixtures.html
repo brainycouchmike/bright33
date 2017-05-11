@@ -2,12 +2,28 @@
   <navigation active="fixtures"></navigation>
 </ion-header>
 <ion-content padding>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>LED Fixtures</ion-card-title>
-    </ion-card-header>
-    <ion-card-content padding>
-      <p>LED Fixture Products</p>
-    </ion-card-content>
-  </ion-card>
+  <ion-grid>
+    <ion-row margin-vertical><!-- spacer row --></ion-row>
+    <ion-row>
+      <ion-col col-lg-8 offset-lg-2 text-uppercase text-center>
+        <h2>LED Fixtures</h2>
+        <ion-icon name="arrow-dropdown"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row margin-vertical><ion-col col-2 offset-5><hr/></ion-col></ion-row>
+    <ion-row>
+      <ion-col col-12 col-md-6 col-lg-4 *ngFor="let fixture of fixtures">
+        <ion-card (click)="navigation.openNavDetailsPage(fixture.group?'fixtures':'product-details', fixture.group ? {groupId:fixture.id}:{productId:fixture.id})">
+          <ion-card-content padding>
+            <img [src]="'/assets/'+fixture.image.src" />
+          </ion-card-content>
+          <ion-card-header text-center>
+            <ion-card-title text-uppercase>{{ fixture.title }}</ion-card-title>
+            <p text-capitalize>{{ fixture.subtitle }}</p>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>

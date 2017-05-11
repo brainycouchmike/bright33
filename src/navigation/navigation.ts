@@ -7,20 +7,7 @@ import {ProductsPage} from "../pages/products/products";
 import {LampsPage} from "../pages/lamps/lamps";
 import {FixturesPage} from "../pages/fixtures/fixtures";
 import {BuyPage} from "../pages/buy/buy";
-
-
-@Component({
-  templateUrl: 'navigation-item.html',
-  selector:    'navigation-item'
-})
-export class NavigationDetailsPage {
-
-  item;
-
-  constructor(params: NavParams) {
-    this.item = params.data.item;
-  }
-}
+import {ProductDetailsPage} from "../pages/product-details/product-details";
 
 @Component({
   selector:    'navigation',
@@ -88,6 +75,13 @@ export class Navigation {
         page: BuyPage,
         active:false,
         inMenu:true
+      },
+      {
+        title: "Product Details",
+        value: "product-details",
+        page: ProductDetailsPage,
+        active:false,
+        inMenu: false
       }
     ];
     this.itemsInMenu = this.items.filter((item) => {
@@ -97,7 +91,7 @@ export class Navigation {
     console.log('value active', this.active);
   }
 
-  openNavDetailsPage(item) {
+  openNavDetailsPage(item, addlItems) {
     if(typeof item == 'string') item = this.items.find((page) => {
       return page.value == item;
     });
@@ -106,26 +100,31 @@ export class Navigation {
         item.active = true;
       }
       let rootNav:NavController = this.app.getRootNav();
-      let historyViews:ViewController[]   = rootNav.getViews();
-      let targetView:ViewController       = null;
       // TODO: reorder history stack to re-instate pages without losing navigation
-      let updatedHistory:ViewController[] = historyViews.filter((view) => {
-        if(view.component.name == item.page.name) {
-          targetView = view;
-          return false;
-        }
-        return true;
-      });
-      if(targetView !== null) {
-        rootNav.push(targetView.component,targetView.data, {
-          id: targetView.id, animate: true, updateUrl: true
-        });
-      } else {
-        this.nav.push(item.page, { item: item }, {
+      // let historyViews:ViewController[]   = rootNav.getViews();
+      // let targetView:ViewController       = null;
+      // let updatedHistory:ViewController[] = historyViews.filter((view) => {
+      //   if(view.component.name == item.page.name) {
+      //     targetView = view;
+      //     return false;
+      //   }
+      //   return true;
+      // });
+      // if(targetView !== null) {
+      //   rootNav.push(targetView.component,targetView.data, {
+      //     id: targetView.id, animate: true, updateUrl: true
+      //   });
+      // } else {
+        this.nav.push(item.page, Object.assign({ item: item },addlItems||{}), {
           updateUrl: true
         });
-      }
+      // }
     } else {
+      if(addlItems&&addlItems.groupId) {
+        this.nav.push(item.page, (Object.assign({ item: item }, addlItems)));
+      } else {
+        this.nav.popTo(item.page, {item: item});
+      }
       // TODO: Scroll to page top
     }
     return false;

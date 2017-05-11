@@ -1,0 +1,906 @@
+[
+  {
+    "id": "a19",
+    "title": "A19 NON-DIMMABLE",
+    "subtitle": "General Purpose",
+    "image": {
+      "src": "img/lamps/A19.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/A19.png",
+        "width": "199",
+        "height": "105",
+        "alt": ""
+      },
+      "titles": [
+        "6w - B33A196W27FRE26ND",
+        "9w - B33A199W27FRE26ND",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "6w replaces 40w"
+        ],
+        [
+          "9w replaces 60w"
+        ],
+        [
+          "Light Appearance: 2700K, Soft White",
+          "CRI > 80",
+          "Non Dimmable",
+          "Frosted",
+          "L70 Lifetime: 10,000 hrs",
+          "Life: 9 years (based on 3hrs/day)",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/soft-white.png",
+        "alt": ""
+      },
+      "text": "Soft White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_A19-non-dimmable_.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_A19-non-dimmable_.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "a19d",
+    "title": "A19 DIMMABLE",
+    "subtitle": "LED Filament",
+    "image": {
+      "src": "img/lamps/A19_glass.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/A19.png",
+        "width": "199",
+        "height": "105",
+        "alt": ""
+      },
+      "titles": [
+        "5w - B33A195W27FRE26D",
+        "7w - B33A197W27FRE26D",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "5w replaces 40w"
+        ],
+        [
+          "7w replaces 60w"
+        ],
+        []
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/soft-white.png",
+        "alt": ""
+      },
+      "text": "Soft White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_A19-dimmable-filament.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_A19-dimmable-filament.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "br20",
+    "title": "BR20",
+    "subtitle": "",
+    "image": {
+      "src": "img/lamps/BR20.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/BR20.png",
+        "width": "237",
+        "height": "124",
+        "alt": ""
+      },
+      "titles": [
+        "BR20 - B33BR208W30FRE26D",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "8w replaces 40w"
+        ],
+        [
+          "Light Appearance: 3000K, Bright White",
+          "CRI > 80",
+          "Dimmable",
+          "L70 Lifetime: 25,000 hrs",
+          "Life: 22 years (based on 3hrs/day)"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/bright-white.png",
+        "alt": ""
+      },
+      "text": "Bright White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_BR20.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_BR20.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "br30",
+    "title": "BR30",
+    "subtitle": "",
+    "image": {
+      "src": "img/lamps/BR30.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/BR30.png",
+        "width": "237",
+        "height": "124",
+        "alt": ""
+      },
+      "titles": [
+        "BR30 - B33br3010w30fre26d",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "10w replaces 60w"
+        ],
+        [
+          "Light Appearance: 3000K, Bright White",
+          "CRI > 80",
+          "Dimmable",
+          "L70 Lifetime: 25,000 hrs",
+          "Life: 22.8 years (based on 3hrs/day)"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/bright-white.png",
+        "alt": ""
+      },
+      "text": "Bright White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_BR30-BR40.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_BR30-BR40.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "br40",
+    "title": "BR40",
+    "subtitle": "",
+    "image": {
+      "src": "img/lamps/BR40.jpg",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/BR40.png",
+        "width": "237",
+        "height": "124",
+        "alt": ""
+      },
+      "titles": [
+        "BR40 - B33br4012w30fre26d",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "12w replaces 75w"
+        ],
+        [
+          "Light Appearance: 3000K, Bright White",
+          "CRI > 80",
+          "Dimmable",
+          "L70 Lifetime: 25,000 hrs",
+          "Life: 22.8 years (based on 3hrs/day)"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/bright-white.png",
+        "alt": ""
+      },
+      "text": "Bright White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_BR30-BR40.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_BR30-BR40.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "downlight4",
+    "title": "4\" Downlight",
+    "subtitle": "",
+    "image": {
+      "src": "img/lamps/DL_4in1.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/downlight-4.png",
+        "width": "237",
+        "height": "124",
+        "alt": ""
+      },
+      "titles": [
+        "B334DL10W30E26D",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "10w replaces 60w"
+        ],
+        [
+          "Light Temperature: 3000K, Bright White",
+          "CRI > 90",
+          "Dimmable",
+          "L70 Lifetime: 35,000 hrs",
+          "Life: 32 years (based on 3hrs/day)",
+          "E26 Socket Adaptor Included"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/bright-white.png",
+        "alt": ""
+      },
+      "text": "Bright White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_downlight-4.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_downlight-4.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "downlight6",
+    "title": "6\" Downlight",
+    "subtitle": "",
+    "image": {
+      "src": "img/lamps/DL_6in1.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/downlight-6.png",
+        "width": "237",
+        "height": "124",
+        "alt": ""
+      },
+      "titles": [
+        "B336DL12W30E26D",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "12w replaces 60w"
+        ],
+        [
+          "Light Temperature: 3000K, Bright White",
+          "CRI > 90",
+          "Dimmable",
+          "L70 Lifetime: 35,000 hrs",
+          "Life: 32 years (based on 3hrs/day)",
+          "E26 Socket Adaptor Included"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/bright-white.png",
+        "alt": ""
+      },
+      "text": "Bright White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_downlight-6.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_downlight-6.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "g25",
+    "title": "G25",
+    "subtitle": "Decorative",
+    "image": {
+      "src": "img/lamps/G25.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/G25.png",
+        "width": "237",
+        "height": "124",
+        "alt": ""
+      },
+      "titles": [
+        "B33G257W27FRE26D",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "7w replaces 60w"
+        ],
+        []
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/soft-white.png",
+        "alt": ""
+      },
+      "text": "Soft White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_G25.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_G25.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "e12",
+    "title": "E12",
+    "subtitle": "Decorative Candelabra",
+    "image": {
+      "src": "img/lamps/CAN.jpg",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/E12.png",
+        "width": "164",
+        "height": "161",
+        "alt": ""
+      },
+      "titles": [
+        "B33BT114W27FRE12",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "4w replaces 25w"
+        ],
+        []
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/soft-white.png",
+        "alt": ""
+      },
+      "text": "Soft White",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_E12.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_E12.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "par38",
+    "title": "PAR38",
+    "subtitle": "Outdoor Floodlight",
+    "image": {
+      "src": "img/lamps/PAR38.png",
+      "alt": ""
+    },
+    "heading": {
+      "image": {
+        "src": "img/icons/PAR38.png",
+        "width": "255",
+        "height": "124",
+        "alt": ""
+      },
+      "titles": [
+        "B33PAR3818W50FRE26D",
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "18w replaces 100w"
+        ],
+        [
+          "Light Appearance: 5000K, Daylight",
+          "CRI > 80",
+          "Dimmable",
+          "L70 Lifetime: 25,000 hrs",
+          "Life: 22.8 years (based on 3hrs/day)",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/daylight.png",
+        "alt": ""
+      },
+      "text": "Daylight",
+      "table": "<table width=\"100%\" border=\"0\">\n              <tbody>\n                    <tr>\n                      <td width=\"8%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"33%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\">\n                        <h7>Spec Sheet</h7>\n                      </a></td>\n                      <td width=\"8%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\"><img src=\"img/icons/pdficon.png\" width=\"26\" height=\"26\" alt=\"\"></a></td>\n                      <td width=\"51%\"><a href=\"pdf/Warranty_lamps.pdf\" target=\"_blank\">\n                        <h7>Warranty</h7>\n                      </a></td>\n                </tr>\n              </tbody>\n          \t</table>"
+    }
+  },
+  {
+    "id": "classicflush",
+    "title": "classic",
+    "subtitle": null,
+    "image": {
+      "src": "img/fixtures/classic-flush-bn.jpg",
+      "alt": ""
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Flush Mount",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime: 50,000 hrs",
+          "Mounting Accessories Included",
+          "Alabaster Glass",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/classicflush.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n                   <tbody>\n                     <tr>\n                       <td width=\"8%\"><img src=\"img/icons/white.png\" width=\"24\" height=\"24\" alt=\"\"></td>\n                       <td width=\"12%\">white</td>\n                       <td width=\"8%\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></td>\n                       <td width=\"25%\">brushed nickel</td>\n                       <td width=\"9%\"><img src=\"img/icons/oilrubbedbronze.png\" width=\"24\" height=\"24\" alt=\"\"></td>\n                       <td width=\"38%\">oil rubbed bronze</td>\n                     </tr>\n                   </tbody>\n                 </table>"
+    }
+  },
+  {
+    "id": "contempflush",
+    "title": "contemporary round",
+    "subtitle": null,
+    "image": {
+      "src": "img/fixtures/contemp-flush.jpg",
+      "alt": ""
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Flush Mount",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/contempflush.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "contempoval",
+    "title": "CONTEMPORARY OVAL",
+    "subtitle": null,
+    "image": {
+      "src": "img/fixtures/contemp-oval.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Flush Mount",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/contempoval.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "modernflush",
+    "title": "modern",
+    "subtitle": null,
+    "image": {
+      "src": "img/fixtures/modern-flush.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Flush Mount",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/modernflush.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "modernslim",
+    "title": "modern slim",
+    "subtitle": null,
+    "image": {
+      "src": "img/fixtures/modern-slim.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Ultra Slim, Low Profile",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included with Optional O-Ring",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/modernslim.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/white.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"14%\">White</td>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"72%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "contemppend",
+    "title": "Pendant",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/contemp-pend.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance",
+          "3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Semi-Flush Mount",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/contemppend.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "contemppendmini",
+    "title": "Mini Pendant",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/contemp-pend-mini.png"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Cord Hung, Adjustable Length",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/contemppendmini.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel with Frosted Glass</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "contemppendfan",
+    "title": "Ceiling Fan",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/contemp-pend-fan.png"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "3 Reversible 20\" L Blades",
+          "3-Speed Motor",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Motor Size: 251 mm",
+          "Downrod: 4\"",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/contemppendfan.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel with Opal Glass</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "translamp",
+    "title": "TRANSITIONAL 24\" LAMP",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/trans-lamp.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "100-277V AC Input",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/translamp.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "translamp4",
+    "title": "TRANSITIONAL 30\" LAMP",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/trans-lamp-4.png"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "100-277V AC Input",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/translamp4.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel with Opal Glass</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "contempvan",
+    "title": "CONTEMPORARY",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/contemp-van.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "100-277V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/contempvan.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "contempmoon",
+    "title": "WALL Sconce",
+    "subtitle": "Contemporary",
+    "image": {
+      "src": "img/fixtures/contemp-moon.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "Wall Mount",
+          "TRIAC Dimmable",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/contempmoon.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"7%\"><a href=\"pdf/spec-sheet_PAR38.pdf\" target=\"_blank\"><img src=\"img/icons/brushednickel.png\" width=\"24\" height=\"24\" alt=\"\"></a></td>\n                  <td width=\"93%\">Brushed Nickel</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "tradout1",
+    "title": "AMBER GLASS",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/tradout.jpg"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 2700K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "100-277V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/tradout.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"10%\" height=\"24\"><img src=\"img/icons/bronze-with-amber-glass.jpg\" width=\"24\" height=\"24\" alt=\"\"></td>\n                  <td width=\"90%\">Bronze with Amber Glass</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  },
+  {
+    "id": "tradout2",
+    "title": "CLEAR GLASS",
+    "subtitle": "",
+    "image": {
+      "src": "img/fixtures/tradout2.png"
+    },
+    "heading": {
+      "image": {},
+      "titles": [
+        "Features"
+      ],
+      "subtitles": [
+        [
+          "Light Appearance: 3000K",
+          "CRI 80+",
+          "120° Beam Angle",
+          "120V AC Input",
+          "Frequency: 50/60hz",
+          "L70 Lifetime > 50,000 hrs",
+          "Mounting Accessories Included",
+          "5 Year Limited Warranty"
+        ]
+      ]
+    },
+    "detail": {
+      "image": {
+        "src": "img/icons/tradout2.png",
+        "alt": ""
+      },
+      "text": "",
+      "table": "<table width=\"86%\" border=\"0\">\n              <tbody>\n                <tr>\n                  <td width=\"10%\" height=\"24\"><img src=\"img/icons/black.png\" width=\"24\" height=\"24\" alt=\"\"></td>\n                  <td width=\"90%\">Black with Glass</td>\n                </tr>\n              </tbody>\n            </table>"
+    }
+  }
+]

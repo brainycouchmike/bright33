@@ -2,29 +2,30 @@
   <navigation active="products"></navigation>
 </ion-header>
 <ion-content padding>
-  <ion-grid margin text-center>
+  <ion-grid>
     <ion-row margin-vertical><!-- spacer row --></ion-row>
     <ion-row>
-      <ion-col col-lg-8 offset-lg-2 text-uppercase>
+      <ion-col col-lg-8 offset-lg-2 text-uppercase text-center>
         <h2>Products</h2>
         <ion-icon name="arrow-dropdown"></ion-icon>
       </ion-col>
     </ion-row>
     <ion-row margin-vertical><ion-col col-2 offset-5><hr/></ion-col></ion-row>
-    <ion-row>
+    <ion-row margin>
       <ion-col col-xs-12 col-sm-12 col-md-8 offset-md-2 text-justify>
-        <p padding>By using Bright33 LED lighting, homeowners can consume up to 80% less energy that lasts up to 25X* longer than traditional lighting types—meaning just one LED lamp can equal up to 25 incandescent light bulbs. LED lighting is also much cooler than incandescent lights, which reduces heat and the risk of burnt fingertips!</p>
-        <p padding><b>Why Choose Bright33 LED Lighting?</b></p>
-        <p padding><b>Long Life.</b> Bright33® lamps have an outstanding operational lifetime, allowing them to last up to 20 years* before needing a replacement.</p>
-        <p padding><b>Economical.</b> Bright33® lamps can significantly reduce utility expenses, prevent future lamp replacements, and reduce maintenance costs.</p>
-        <p padding><b>Effective.</b> Bright33® lamps turn on instantly and feature industry-leading color rendering (CRI). They are also ideal for outdoor operation under extreme temperatures and are resistant to shock and vibrations, making them a great lighting choice for rough conditions.</p><p padding><b>Environmental.</b> Bright33® lamps do not contain mercury or any other hazardous substances, do not emit IR or ultraviolet radiation, and are 100% recyclable.</p>
+        <p>By using Bright33 LED lighting, homeowners can consume up to 80% less energy that lasts up to 25X* longer than traditional lighting types—meaning just one LED lamp can equal up to 25 incandescent light bulbs. LED lighting is also much cooler than incandescent lights, which reduces heat and the risk of burnt fingertips!</p>
+        <p><b>Why Choose Bright33 LED Lighting?</b></p>
+        <p><b>Long Life.</b> Bright33® lamps have an outstanding operational lifetime, allowing them to last up to 20 years* before needing a replacement.</p>
+        <p><b>Economical.</b> Bright33® lamps can significantly reduce utility expenses, prevent future lamp replacements, and reduce maintenance costs.</p>
+        <p><b>Effective.</b> Bright33® lamps turn on instantly and feature industry-leading color rendering (CRI). They are also ideal for outdoor operation under extreme temperatures and are resistant to shock and vibrations, making them a great lighting choice for rough conditions.</p>
+        <p><b>Environmental.</b> Bright33® lamps do not contain mercury or any other hazardous substances, do not emit IR or ultraviolet radiation, and are 100% recyclable.</p>
         <p text-right>*22-year life based on BR30/BR40 floodlight lamp at a usage of 3 hours/day.</p>
       </ion-col>
     </ion-row>
     <ion-row margin-vertical><ion-col col-2 offset-5><hr/></ion-col></ion-row>
     <ion-row>
       <!-- LED LAMPS -->
-      <ion-col col-xs-12 col-sm-6 col-md-3 offset-3 text-center>
+      <ion-col col-xs-12 col-sm-6 col-md-3 offset-md-3 text-center>
         <ion-card (click)="navigation.openNavDetailsPage('lamps')">
           <ion-card-content>
             <img src="/assets/img/lamps/A19_glass.jpg" alt=""/>
@@ -35,7 +36,7 @@
         </ion-card>
       </ion-col>
       <!-- LED FIXTURES -->
-      <ion-col col-xs-12 col-sm-6 col-md-3 offset-sm-3 offset-md-0 text-center>
+      <ion-col col-xs-12 col-sm-6 col-md-3 text-center>
         <ion-card (click)="navigation.openNavDetailsPage('fixtures')">
           <ion-card-content>
             <img src="/assets/img/fixtures/classic-flush-bn.jpg" alt="LED Fixtures"/>

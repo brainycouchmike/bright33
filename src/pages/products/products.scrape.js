@@ -33,7 +33,7 @@ JSON.stringify($(".container.well .row").map(function() {
         alt: $('.media-heading', this).last().siblings('img').attr('alt')
       },
       text: $('.media-heading', this).last().siblings('img').first()[0].previousSibling&&
-            $('.media-heading', this).last().siblings('img').first()[0].previousSibling.data.trim(),
+      $('.media-heading', this).last().siblings('img').first()[0].previousSibling.data.trim(),
       table: $('table', this)[0].outerHTML
     }
 
