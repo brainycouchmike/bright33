@@ -123,7 +123,11 @@ export class Navigation {
       if(addlItems&&addlItems.groupId) {
         this.nav.push(item.page, (Object.assign({ item: item }, addlItems)));
       } else {
-        this.nav.popTo(item.page, {item: item});
+        this.nav.popTo(item.page, {item: item}).catch(() => {
+          this.nav.setRoot(HomePage).then(() => {
+            this.nav.popToRoot();
+          });
+        });
       }
       // TODO: Scroll to page top
     }

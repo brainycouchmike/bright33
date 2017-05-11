@@ -1,4 +1,5 @@
 // Used to scrape Lamp items from bright33.com website
+/*** currently provides incorrect group / items **/
 JSON.stringify($('.team.boxed-grey','#fixtures').map(function() {
   var h5 = $('h5',this)[0];
   return {

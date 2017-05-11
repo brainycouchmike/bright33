@@ -2,12 +2,29 @@
   <navigation active="products"></navigation>
 </ion-header>
 <ion-content padding>
-  <ion-card>
-    <ion-card-header>
-      <ion-card-title>Product Details</ion-card-title>
-    </ion-card-header>
-    <ion-card-content padding>
-      <p>Product Details for {{ productId }}</p>
+  <ion-card *ngIf="product">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-12 col-sm-7>
+            <img [src]="'/assets/'+product.image.src" [alt]="product.image.alt"/>
+          </ion-col>
+          <ion-col col-12 col-sm-5>
+            <img [src]="'/assets/'+product.heading.image.src" [alt]="product.heading.image.alt" *ngIf="product.heading.image.src" />
+            <ion-row *ngFor="let heading of product.heading.titles; let i = index" padding-top>
+              <ion-col>
+                <p><strong>{{ heading }}</strong></p>
+                <p *ngFor="let subheading of product.heading.subtitles[i]" padding-left>{{ subheading }}</p>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <div [innerHTML]="product.detail.table"></div>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
     </ion-card-content>
   </ion-card>
 </ion-content>

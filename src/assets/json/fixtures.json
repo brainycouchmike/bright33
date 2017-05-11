@@ -2,37 +2,37 @@
   {
     "title": "FLUSH MOUNT",
     "subtitle": "Classic | Comtemporary | Modern",
-    "group": false,
+    "group": true,
     "image": {
       "src": "img/fixtures/classic-flush-bn.jpg"
     },
     "id": "flushmount",
     "items": [
-      "flushmount"
+      "classicflush","contempflush","contempoval","modernflush","modernslim"
     ]
   },
   {
     "title": "Pendant",
     "subtitle": "Contemporary",
-    "group": false,
+    "group": true,
     "image": {
       "src": "img/fixtures/contemp-pend.jpg"
     },
     "id": "pendant",
     "items": [
-      "pendant"
+      "contemppend","contemppendmini","contemppendfan"
     ]
   },
   {
     "title": "vANITY",
     "subtitle": "Transitional | Contemporary",
-    "group": false,
+    "group": true,
     "image": {
       "src": "img/fixtures/trans-lamp.jpg"
     },
     "id": "vanity",
     "items": [
-      "vanity"
+      "translamp","translamp4","contempvan"
     ]
   },
   {
@@ -50,13 +50,13 @@
   {
     "title": "oUTDOOR",
     "subtitle": "Traditional",
-    "group": false,
+    "group": true,
     "image": {
       "src": "img/fixtures/tradout.jpg"
     },
     "id": "outdoor",
     "items": [
-      "outdoor"
+      "tradout1","tradout2"
     ]
   }
 ]
