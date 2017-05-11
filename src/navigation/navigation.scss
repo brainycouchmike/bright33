@@ -13,10 +13,15 @@ navigation {
         }
       }
     }
-    .segment-button {
-      font-size: 60%;
-      text-overflow: clip;
-      padding: 0 5%;
+    .segment{
+      &-wp {
+        .segment-button {
+          padding: 0 5%;
+        }
+      }
+      .segment-button {
+        text-overflow: clip;
+      }
     }
   }
 

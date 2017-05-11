@@ -56,14 +56,14 @@ export class Navigation {
         inMenu:true
       },
       {
-        title: "LED Lamps",
+        title: "Lamps",
         value: "lamps",
         page: LampsPage,
         active:false,
         inMenu:true
       },
       {
-        title: "LED Fixtures",
+        title: "Fixtures",
         value: "fixtures",
         page: FixturesPage,
         active:false,
