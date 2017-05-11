@@ -1,0 +1,23 @@
+navigation {
+  .toolbar-content {
+    ion-row {
+      padding: 0;
+    }
+    &.toolbar-content-ios {
+      margin-top: 30px;
+      ion-row {
+        padding: 0 0 2.1rem;
+        .segment-button {
+          margin-top: 10px;
+          padding: 0;
+        }
+      }
+    }
+    .segment-button {
+      font-size: 60%;
+      text-overflow: clip;
+      padding: 0 5%;
+    }
+  }
+
+}

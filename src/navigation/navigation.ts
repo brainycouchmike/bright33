@@ -118,7 +118,7 @@ export class Navigation {
         if(item.page==HomePage) {
           // this.nav.setRoot(HomePage).then(()=>{
           if(rootNav.getViews().length)
-            rootNav.popToRoot();//.then(() => rootNav.push(HomePage,{item:item}));
+            rootNav.popToRoot().then(() => rootNav.push(HomePage,{item:item}));
           // });
         } else {
           this.nav.push(item.page, Object.assign({ item: item },addlItems||{}), {
@@ -130,7 +130,7 @@ export class Navigation {
       if(addlItems&&addlItems.groupId) {
         this.nav.push(item.page, (Object.assign({ item: item }, addlItems)));
       } else {
-        this.nav.popTo(item.page, {item: item}).catch(() => {
+        this.nav.push(item.page, {item: item}).catch(() => {
           if(this.nav.getViews().length)
             this.nav.popToRoot().then(() => this.nav.push(HomePage,{item:item}));
         });
