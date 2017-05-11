@@ -20,8 +20,9 @@
 }
 .back-button {
   position: absolute;
+  z-index: 99999;
   &.show-back-button + .toolbar-content ion-col:first-child {
-    margin-left: 20px;
+    padding-left: 20px;
   }
 }
 
