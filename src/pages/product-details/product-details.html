@@ -10,12 +10,16 @@
             <img [src]="'/assets/'+product.image.src" [alt]="product.image.alt"/>
           </ion-col>
           <ion-col col-12 col-sm-5>
-            <img [src]="'/assets/'+product.heading.image.src" [alt]="product.heading.image.alt" *ngIf="product.heading.image.src" />
+            <img [src]="'/assets/'+(product.heading.image.src||product.detail.image.src)" [alt]="product.heading.image.alt" *ngIf="product.heading.image.src||product.detail.image.src" />
             <ion-row *ngFor="let heading of product.heading.titles; let i = index" padding-top>
               <ion-col>
                 <p><strong>{{ heading }}</strong></p>
                 <p *ngFor="let subheading of product.heading.subtitles[i]" padding-left>{{ subheading }}</p>
               </ion-col>
+            </ion-row>
+            <ion-row *ngIf="product.detail&&product.heading.image.src" margin-vertical>
+              <span>{{ product.detail.text }}</span>
+              <img [src]="'/assets/'+product.detail.image.src" [alt]="product.detail.image.src" height="19" style="width:auto;">
             </ion-row>
             <ion-row>
               <ion-col>
