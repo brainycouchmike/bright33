@@ -116,12 +116,13 @@ export class Navigation {
       //   });
       // } else {
         if(item.page==HomePage) {
-          // this.nav.setRoot(HomePage).then(()=>{
-          if(rootNav.getViews().length)
-            rootNav.popToRoot({
+          if (this.nav.getViews().length) {
+            this.nav.popToRoot({
               updateUrl: true
-            });//.then(() => rootNav.push(HomePage,{item:item}));
-          // });
+            }).then(() => {
+              this.nav.setRoot(HomePage);
+            });
+          }
         } else {
           this.nav.push(item.page, Object.assign({ item: item },addlItems||{}), {
             updateUrl: true
@@ -137,10 +138,13 @@ export class Navigation {
         this.nav.push(item.page, {item: item}, {
           updateUrl: true
         }).catch(() => {
-          if(this.nav.getViews().length)
+          if (this.nav.getViews().length) {
             this.nav.popToRoot({
               updateUrl: true
-            });//.then(() => this.nav.push(HomePage,{item:item}));
+            }).then(() => {
+              this.nav.setRoot(HomePage);
+            });
+          }
         });
       }
       // TODO: Scroll to page top

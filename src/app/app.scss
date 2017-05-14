@@ -15,14 +15,31 @@
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
 
-.bar-button {
-  color: color($colors, white) !important;
-}
-.back-button {
-  position: absolute;
-  z-index: 99999;
-  &.show-back-button + .toolbar-content ion-col:first-child {
-    padding-left: 20px;
+
+.ion-page {
+  .bar-button {
+    color: color($colors, white) !important;
+  }
+  .back-button {
+    position: absolute;
+    z-index: 99999;
+    &.show-back-button + .toolbar-content ion-col:first-child {
+      padding-left: 20px;
+    }
+  }
+  h2 {
+    color: color($colors, dark);
+    font-size: 3.5rem;
+    font-weight: bolder;
+  }
+  ion-card {
+    background-color: color($colors, lightGray) !important;
+    ion-card-title {
+      white-space: normal;
+      h5 {
+        font-weight: bolder !important;
+        color: color($colors, 'dark') !important;
+      }
+    }
   }
 }
-
