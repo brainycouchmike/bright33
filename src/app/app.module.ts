@@ -33,7 +33,7 @@ import {ProductDetailsPage} from "../pages/product-details/product-details";
     HttpModule,
     IonicModule.forRoot(MyApp, {
       /** Uncomment to remove # from path, further config required **/
-      // locationStrategy: 'path'
+      locationStrategy: 'path'
     }, {
       links: [
         { component: HomePage, name: 'Home', segment: '' },
