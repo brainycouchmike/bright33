@@ -25,11 +25,11 @@ export class FixturesPage {
 
   @ViewChild(forwardRef(() => Navigation))
   private navigation: Navigation;
+
+  constructor(public params: NavParams, public fixturesService: FixturesService, public productsService: ProductsService) {}
+
   ionViewWillEnter() {
     this.navigation.active = 'fixtures';
-  }
-
-  constructor(public params: NavParams, public fixturesService: FixturesService, public productsService: ProductsService) {
     let groupId: string = this.params.get('groupId');
     if(groupId) {
       this.fixturesService.getItems().then((fixtures) => {
@@ -45,7 +45,6 @@ export class FixturesPage {
         });
       });
     }
-
   }
 
 }

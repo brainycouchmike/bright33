@@ -118,7 +118,9 @@ export class Navigation {
         if(item.page==HomePage) {
           // this.nav.setRoot(HomePage).then(()=>{
           if(rootNav.getViews().length)
-            rootNav.popToRoot().then(() => rootNav.push(HomePage,{item:item}));
+            rootNav.popToRoot({
+              updateUrl: true
+            });//.then(() => rootNav.push(HomePage,{item:item}));
           // });
         } else {
           this.nav.push(item.page, Object.assign({ item: item },addlItems||{}), {
@@ -128,11 +130,17 @@ export class Navigation {
       // }
     } else {
       if(addlItems&&addlItems.groupId) {
-        this.nav.push(item.page, (Object.assign({ item: item }, addlItems)));
+        this.nav.push(item.page, (Object.assign({ item: item }, addlItems)), {
+          updateUrl: true
+        });
       } else {
-        this.nav.push(item.page, {item: item}).catch(() => {
+        this.nav.push(item.page, {item: item}, {
+          updateUrl: true
+        }).catch(() => {
           if(this.nav.getViews().length)
-            this.nav.popToRoot().then(() => this.nav.push(HomePage,{item:item}));
+            this.nav.popToRoot({
+              updateUrl: true
+            });//.then(() => this.nav.push(HomePage,{item:item}));
         });
       }
       // TODO: Scroll to page top

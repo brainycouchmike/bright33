@@ -24,11 +24,11 @@ export class LampsPage {
 
   @ViewChild(forwardRef(() => Navigation))
   private navigation: Navigation;
+
+  constructor(public lampsService: LampsService, public productsService: ProductsService, public params: NavParams) {}
+
   ionViewWillEnter() {
     this.navigation.active = 'lamps';
-  }
-
-  constructor(public lampsService: LampsService, public productsService: ProductsService, public params: NavParams) {
     let groupId: string = this.params.get('groupId');
     if(groupId) {
       this.lampsService.getItems().then((lamps) => {
